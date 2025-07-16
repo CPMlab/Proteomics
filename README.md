@@ -37,6 +37,7 @@ bash merge_mzmls.sh
 ```
 ### 3. Run Sage
 Execute Sage using the prepared JSON configuration:
+⚠️ CPU usage spikes significantly during this step, so please monitor your system accordingly.
 
 ```bash
 sage global_250715.json
