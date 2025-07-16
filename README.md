@@ -54,3 +54,11 @@ Before running Sage, manually update the following section in global_250715.json
 ```
 🛠 This step will be automated in a future update.
 
+## 📁 Output Files
+
+| File               | Description                                                                                                                           |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `results.sage.tsv` | **Main identification result** from Sage. Contains peptide-spectrum matches (PSMs) with scores, q-values, and protein assignments.    |
+| `tmt.tsv`          | **TMT quantification table**, with intensities for each peptide across TMT channels. Includes modification, uniqueness, and q-values. |
+| `raw_list.txt`     | List of original `.raw` files used as input for conversion to mzML.                                                                   |
+| `sample_dirs.txt`  | List of sample directories that were processed and merged during the merging step.                                                    |
