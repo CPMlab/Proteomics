@@ -14,26 +14,6 @@ Use the provided `environment.yml` file to create the analysis environment:
 conda env create -f envs/environment.yml
 conda activate mzml_env
 ```
-### Singularity Requirement
-This pipeline requires Singularity to run properly.
-
-If your system does not have Singularity installed, you must install it before running the pipeline.
-```bash
-sudo apt update
-sudo apt install -y singularity-container
-```
-Make sure singularity is accessible in your shell:
-
-```bash
-singularity --version
-```
-### 2. Download Singularity (SIF) Image
-You must obtain the .sif file for Sage execution.
-It takes so long time.
-```bash
-singularity pull msconvert.sif docker://chambm/pwiz-skyline-i-agree-to-the-vendor-licenses
-```
-
 ## 🔁 Workflow
 The pipeline consists of the following steps:
 
