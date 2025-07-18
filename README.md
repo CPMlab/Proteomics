@@ -14,6 +14,13 @@ Use the provided `environment.yml` file to create the analysis environment:
 conda env create -f envs/environment.yml
 conda activate mzml_env
 ```
+### 📁 File Structure Overview
+Make sure all files and folders are located at the same top-level directory, like this:
+
+<img width="600" height="360" alt="image" src="https://github.com/user-attachments/assets/2042e852-3e16-4bb9-b2fd-6917ef9812da" />
+
+📌 Note: All scripts (*.sh) and the sage_config.json should be placed in the same directory level as 00.raw and 01.mzml.
+
 ## 🔁 Workflow
 The pipeline consists of the following steps:
 
@@ -32,6 +39,7 @@ bash merge_mzmls.sh
 Execute Sage using the prepared JSON configuration:
 
 ⚠️ CPU usage spikes significantly during this step, so please monitor your system accordingly.
+![Uploading image.png…]()
 
 ```bash
 sage global_250715.json
