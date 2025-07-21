@@ -54,9 +54,9 @@ Use the merge_mzmls.sh script to combine individual mzML files into one per samp
 For each analysis JSON file (e.g., for Proteome, GlycoProteome, PhosphoProteome),
 update the following two fields using the output from grouped_mzml_paths.tsv:
 
-"mzml_paths": Use the comma-separated list of "merged.mzML" files for the corresponding type.
+- "mzml_paths": Use the comma-separated list of "merged.mzML" files for the corresponding type.
 
-"reference": Set the appropriate FASTA file (e.g., /human_contam_20240723.fasta).
+- "reference": Set the appropriate FASTA file (e.g., /human_contam_20240723.fasta).
 
 Make sure the "type" in the TSV matches the dataset you are configuring in the JSON.
 
