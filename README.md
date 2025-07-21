@@ -74,15 +74,7 @@ sage ./JSON/glyco_250715.json -o 02.sage/GlycoProteome
 sage ./JSON/phospho_250715.json -o 02.sage/PhosphoProteome
 
 ```
-⚠️ Manual Step (for now)
-Before running Sage, manually update the following section in global_250715.json:
 
-```bash
-"mzml_paths": [
-  "/absolute/path/to/sample1/merged.mzML",
-  "/absolute/path/to/sample2/merged.mzML"
-]
-```
 🛠 This step will be automated in a future update.
 
 ## 📁 Output Files
