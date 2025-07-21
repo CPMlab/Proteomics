@@ -71,9 +71,9 @@ Execute Sage using the prepared JSON configuration:
 ![Uploading image.png…]()
 
 ```bash
-sage global_250715.json -o 02.sage/Proteome
-sage glyco_250715.json -o 02.sage/GlycoProteome
-sage phospho_250715.json -o 02.sage/PhosphoProteome
+sage ./JSON/global_250715.json -o 02.sage/Proteome
+sage ./JSON/glyco_250715.json -o 02.sage/GlycoProteome
+sage ./JSON/phospho_250715.json -o 02.sage/PhosphoProteome
 
 ```
 ⚠️ Manual Step (for now)
