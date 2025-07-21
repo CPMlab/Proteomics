@@ -1,0 +1,4 @@
+type	paths
+Proteome	"01.mzml/Proteome/NCC_N111T112_Proteome_KU_20150109/Proprietary/N111T112_Proteome_merged.mzML","01.mzml/Proteome/NCC_N115T116_Proteome_KU_20150109/Proprietary/N115T116_Proteome_merged.mzML"
+PhosphoProteome	"01.mzml/PhosphoProteome/NCC_N111T112_Phosphoproteome_KU_20150109/Proprietary/N111T112_Phosphoproteome_merged.mzML","01.mzml/PhosphoProteome/NCC_N115T116_Phosphoproteome_KU_20150109/Proprietary/N115T116_Phosphoproteome_merged.mzML"
+GlycoProteome	"01.mzml/GlycoProteome/NCC_N115T116_Glycoproteome_KU_20150109/Proprietary/N115T116_Glycoproteome_merged.mzML","01.mzml/GlycoProteome/NCC_N111T112_Glycoproteome_KU_20150109/Proprietary/N111T112_Glycoproteome_merged.mzML"

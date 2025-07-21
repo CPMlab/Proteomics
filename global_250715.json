@@ -60,7 +60,6 @@
         }
     },
     "mzml_paths": [
-        "/home/ljb/GC/Proteome/Pipeline/01.mzml/NCC_N111T112_Proteome_KU_20150109_Proprietary/N111T112_merged.mzML",
-	"/home/ljb/GC/Proteome/Pipeline/01.mzml/NCC_N115T116_Proteome_KU_20150109_Proprietary/N115T116_merged.mzML"
+    "01.mzml/Proteome/NCC_N111T112_Proteome_KU_20150109/Proprietary/N111T112_Proteome_merged.mzML","01.mzml/Proteome/NCC_N115T116_Proteome_KU_20150109/Proprietary/N115T116_Proteome_merged.mzML"
     ]
 }
