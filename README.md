@@ -15,9 +15,10 @@ conda env create -f envs/environment.yml
 conda activate mzml_env
 ```
 ### 📁 File Structure Overview
-Make sure all files and folders are located at the same top-level directory, like this:
+Make sure all scripts, raw files, and result folders are located at the same top-level directory, like this:
 
-<img width="600" height="360" alt="image" src="https://github.com/user-attachments/assets/2042e852-3e16-4bb9-b2fd-6917ef9812da" />
+<img width="600" height="360" alt="image" src="https://github.com/user-attachments/assets/0f4d51c2-c074-4d21-9582-afa746ff53c7" />
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/0d99b821-d9e0-410f-a3ce-4e0c9dec1755" />
 
 📌 Note: All scripts (*.sh) and the sage_config.json should be placed in the same directory level as 00.raw and 01.mzml.
 
