@@ -24,17 +24,33 @@ Make sure all files and folders are located at the same top-level directory, lik
 ## 🔁 Workflow
 The pipeline consists of the following steps:
 
+### 0. Make the scripts executable
+
+```
+chmod +x *.sh
+```
+
+
 ### 1. Convert RAW to mzML
 Run the script to convert individual .raw files to .mzML format:
 
 ```bash
-bash convert_raws.sh
+./convert_raws.sh
 ```
+
 ### 2. Merge mzML files per sample
 Use the merge_mzmls.sh script to combine individual mzML files into one per sample:
 ```bash
-bash merge_mzmls.sh
+./merge_mzmls.sh
 ```
+
+### 2-1. Find Path Merged mzML Files
+```bash
+./Find FindPath_merged_mzML.sh
+```
+
+### 2-2. Paste Path in JSON files
+
 ### 3. Run Sage
 Execute Sage using the prepared JSON configuration:
 
