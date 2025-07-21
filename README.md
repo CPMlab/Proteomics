@@ -17,8 +17,7 @@ conda activate mzml_env
 ### 📁 File Structure Overview
 Make sure all scripts, raw files, and result folders are located at the same top-level directory, like this:
 
-<img width="600" height="360" alt="image" src="https://github.com/user-attachments/assets/0f4d51c2-c074-4d21-9582-afa746ff53c7" />
-<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/0d99b821-d9e0-410f-a3ce-4e0c9dec1755" />
+<img width="600" height="480" alt="image" src="https://github.com/user-attachments/assets/694b3987-9619-4b51-b496-515720e9c96c" />
 
 📌 Note: All scripts (*.sh) and the sage_config.json should be placed in the same directory level as 00.raw and 01.mzml.
 
@@ -68,7 +67,6 @@ Make sure the "type" in the TSV matches the dataset you are configuring in the J
 Execute Sage using the prepared JSON configuration:
 
 ⚠️ CPU usage spikes significantly during this step, so please monitor your system accordingly.
-![Uploading image.png…]()
 
 ```bash
 sage ./JSON/global_250715.json -o 02.sage/Proteome
