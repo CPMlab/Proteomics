@@ -46,9 +46,11 @@ Use the merge_mzmls.sh script to combine individual mzML files into one per samp
 ```
 
 ### 2-1. Find Path Merged mzML Files
+You can obtain the merged .mzML file paths required for the JSON file as a single string, where each path is quoted and separated by commas.
 ```bash
 ./Find FindPath_merged_mzML.sh
 ```
+<img width="432" height="77" alt="image" src="https://github.com/user-attachments/assets/8e6320f1-330b-421c-bef8-0f9bfa7fbeb9" />
 
 ### 2-2. Modify Path in JSON files
 
